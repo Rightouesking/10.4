@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IP Address Tracker</title>
+
+  
+  <link rel="stylesheet" href="./leaflet/leaflet.css" />
+
+ 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>IP Address Tracker</h1>
+    <div class="search-container">
+      <input type="text" id="ipInput" placeholder="Enter IP or domain" />
+      <button id="searchBtn">🔍</button>
+    </div>
+  </header>
+
+  
+  <section class="info-container">
+    <div class="info-box">
+      <h4>IP ADDRESS</h4>
+      <p id="ipText">--</p>
+    </div>
+    <div class="info-box">
+      <h4>LOCATION</h4>
+      <p id="locationText">--</p>
+    </div>
+    <div class="info-box">
+      <h4>TIMEZONE</h4>
+      <p id="timezoneText">--</p>
+    </div>
+    <div class="info-box">
+      <h4>ISP</h4>
+      <p id="ispText">--</p>
+    </div>
+  </section>
+
+  
+  <div id="map"></div>
+
+
+  <script src=".at_3cOppiojq9l6H3cTQzocrnPIYCqhw"></script>
+  <script src="project1/ip-address-tracker-master/java.js"></script>
+</body>
+</html>
